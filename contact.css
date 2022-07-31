@@ -100,7 +100,7 @@ a {
 
 .icons img {
   position: absolute;
-  top: 32.5px;
+  top: 41.5px;
   left: 10px;
   width: 24px;
   height: 24px;
@@ -113,6 +113,7 @@ textarea {
   padding: 0.75rem 2.3rem;
   border-radius: 8px;
   border: 1px solid #bababa;
+  margin: .5rem 0;
 }
 
 .form textarea {
@@ -156,12 +157,12 @@ textarea {
 }
 
 .contact-details {
-  padding: 1rem;
+  padding: 3rem 1rem 1rem 1rem;
 }
 
 .contact-detail {
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .contact-detail-img {
@@ -169,27 +170,27 @@ textarea {
   justify-content: center;
 }
 .contact-detail img {
-  width: 12%;
-  height: 12%;
+  width: 10%;
+  height: 10%;
 }
 
 .contact-detail h2 {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #272727;
   line-height: 36px;
 }
 
 .contact-detail p {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   color: #272727;
   line-height: 20px;
 }
 
 .contact-detail a {
   font-weight: 600;
-  font-size: 1rem;
+  font-size: .7rem;
   color: #2b7a78;
   line-height: 24px;
   text-decoration: none;
@@ -201,7 +202,7 @@ textarea {
 
 .social-media h3 {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 48px;
   color: #000;
   text-align: center;
@@ -214,28 +215,25 @@ textarea {
 }
 
 .social-media img {
-  width: 16%;
-  height: 16%;
+  width: 12%;
+  height: 12%;
   padding: 0 0.5rem;
 }
 
 .footer {
   background-color: #1d5150;
   color: #fefefe;
-  padding: 0.5rem;
-  max-width: 100%;
+  padding: 2rem;
 }
 
 .footer-info {
   width: 80%;
   padding-bottom: 1.5rem;
-  margin: auto;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .footer div h3,
 .footer div a {
-  flex-direction: column;
   display: block;
 }
 
@@ -251,7 +249,7 @@ textarea {
   font-weight: 700;
   font-size: 1.2rem;
   line-height: 36px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .footer p {
@@ -345,6 +343,18 @@ textarea {
     border-radius: 16px;
   }
 
+  .contact-detail h2 {
+    font-size: 1.2rem;
+  }
+  
+  .contact-detail p {
+    font-size: 0.75rem;
+  }
+  
+  .contact-detail a {
+    font-size: 1rem;
+  }
+
   .contact-detail-img img {
     width: 64px;
     height: 64px;
@@ -374,4 +384,6 @@ textarea {
   main {
     width: 1440px;
   }
+
+
 }
