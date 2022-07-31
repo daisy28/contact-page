@@ -79,10 +79,6 @@ a {
   color: #525252;
 }
 
-.contact-form {
-  width: 100%;
-}
-
 .contact-form-img img {
   width: 100%;
   height: 100%;
@@ -177,7 +173,7 @@ textarea {
   height: 12%;
 }
 
-.contact-detail h3 {
+.contact-detail h2 {
   font-weight: 600;
   font-size: 1.2rem;
   color: #272727;
