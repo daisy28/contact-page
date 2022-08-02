@@ -219,7 +219,7 @@ textarea {
 
   .contact-form {
     width: 1044px;
-    height: 552px;
+    /* height: 552px; */
     display: flex;
     padding: 3rem;
     border-radius: 16px;
@@ -237,7 +237,7 @@ textarea {
 
   .form {
     width: 400px;
-    height: 456px;
+   /* height: 456px; */
   }
   .form-button {
     width: 117px;
