@@ -201,7 +201,7 @@ textarea {
 
 @media screen and (min-width: 1024px) {
   main {
-    min-width: 1000px;
+    min-width: 1024px;
   }
   .contact-us {
     width: 628px;
@@ -246,12 +246,11 @@ textarea {
   }
 
   .contact-details {
-    width: 100%;
+    width: 1044px;
     height: 392px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 7.5rem;
   }
 
   .contact-detail {
@@ -296,6 +295,7 @@ textarea {
 
   .contact-details {
     width: 1440px;
+    padding: 4rem 7.5rem;
   }
 
   .contact-detail {
