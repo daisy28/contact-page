@@ -220,7 +220,7 @@ textarea {
   }
 
   .contact-form {
-    width: 1044px;
+    width: 1024px;
     display: flex;
     justify-content: space-between;
     padding: 3rem;
@@ -246,7 +246,7 @@ textarea {
   }
 
   .contact-details {
-    width: 1044px;
+    width: 1024px;
     height: 392px;
     display: flex;
     justify-content: space-between;
@@ -279,8 +279,8 @@ textarea {
   }
 
   .social-media-icons img {
-    width: 72px;
-    height: 72px;
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -291,6 +291,7 @@ textarea {
 
   .contact-form {
     margin: 0 auto;
+    width: 1044px;
   }
 
   .contact-details {
